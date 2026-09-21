@@ -1,0 +1,67 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+/auth.json
+/storage/*.key
+
+# Laravel Storage & Logs
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/pail
+*.log
+
+# Public Build Assets & Storage Symlink
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Caches & Test Results
+/.phpunit.cache
+.phpunit.result.cache
+
+# Local databases
+/database/*.sqlite
+/database/*.sqlite-journal
+/database/*.db
+/database/*.db-journal
+
+# Deployment and generated API artifacts
+/.cloud
+/bootstrap/cache/*.php
+
+# IDEs & Editor Configurations
+/.claude
+/.vscode
+/.idea
+/.zed
+/.cursor
+/.codex
+/.gemini
+.mcp.json
+Homestead.json
+Homestead.yaml
+_ide_helper.php
+.phpactor.json
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
